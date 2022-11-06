@@ -1,0 +1,9 @@
+{
+  "name": "test1",
+  "dependencies": {
+    "uni-config-center": "file:../common/uni-config-center"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

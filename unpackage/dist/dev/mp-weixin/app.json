@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/record/record",
+    "pages/help/help"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BEBEBE",
+    "selectedColor": "#AAC871",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/home_unselect.png",
+        "selectedIconPath": "static/icon/home_select.png"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "text": "留言条",
+        "iconPath": "static/icon/record_unselect.png",
+        "selectedIconPath": "static/icon/record_select.png"
+      },
+      {
+        "pagePath": "pages/help/help",
+        "text": "帮助",
+        "iconPath": "static/icon/help_unselect.png",
+        "selectedIconPath": "static/icon/help_select.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

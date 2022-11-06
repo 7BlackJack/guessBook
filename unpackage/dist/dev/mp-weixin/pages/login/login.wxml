@@ -1,0 +1,1 @@
+<view><button open-type="getUserInfo" type="primary" data-event-opts="{{[['tap',[['getUser',['$event']]]]]}}" bindtap="__e">登录</button></view>

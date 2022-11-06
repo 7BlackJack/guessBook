@@ -1,0 +1,65 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+			"navigationBarTitleText": "登录"
+		}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "留言条",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/help/help",
+			"style": {
+				"navigationBarTitleText": "帮助",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#BEBEBE",
+		"selectedColor": "#AAC871",
+		"borderStyle": "white",
+		"backgroundColor": "white",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/home_unselect.png",
+				"selectedIconPath": "static/icon/home_select.png"
+			},
+			{
+				"pagePath": "pages/record/record",
+				"text": "留言条",
+				"iconPath": "static/icon/record_unselect.png",
+				"selectedIconPath": "static/icon/record_select.png"
+			},
+			{
+				"pagePath": "pages/help/help",
+				"text": "帮助",
+				"iconPath": "static/icon/help_unselect.png",
+				"selectedIconPath": "static/icon/help_select.png"
+			}
+		]
+	}
+}

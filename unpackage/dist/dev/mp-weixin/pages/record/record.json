@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "留言条",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar"
+  }
+}
